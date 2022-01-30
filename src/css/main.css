@@ -32,7 +32,8 @@ label {
     margin: 25px 0 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 0.8rem;
 }
 
 input, select {
@@ -43,6 +44,16 @@ input, select {
     border-bottom: 1px solid #ddd;
     color: #555;
     outline: none;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 16px;
+    height: auto;
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
 }
 
 p {
