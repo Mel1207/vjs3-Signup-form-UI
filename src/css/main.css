@@ -35,18 +35,14 @@ label {
     font-weight: bold;
 }
 
-input {
+input, select {
     display: block;
-    padding: 10px 5px;
+    padding: 10px 0;
     width: 100%;
     border: none;
     border-bottom: 1px solid #ddd;
     color: #555;
     outline: none;
-}
-
-input:focus {
-    outline: 1px solid #eee;
 }
 
 p {
