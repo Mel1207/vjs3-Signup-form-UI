@@ -65,11 +65,30 @@ p {
     display: inline-block;
     margin: 20px 10px 0 0;
     padding: 6px 12px;
-    background: #eee;
+    background: #0d649e67;
     border-radius: 20px;
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: bold;
-    color: #777;
+    color: #0d649e;
     cursor: pointer;
+}
+
+.submit {
+    text-align: center;
+}
+
+button {
+    background: #0077d8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0a91ff;
 }
